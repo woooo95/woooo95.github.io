@@ -27,12 +27,12 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: woooo95
+author: Sunwoo Kim
 author_bio: Hi, my name is Sunwoo Kim. I am interested in computer vision and deep learning
 author_email: "kswoo3030@korea.ac.kr"
 author_location: South Korea
 author_website_url: null
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+typewrite-text: Hi, my name is Sunwoo Kim. I am interested in computer vision and deep learning
 
 # Experiences
 author_work_experiences:

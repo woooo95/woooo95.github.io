@@ -57,8 +57,6 @@ author_education_details:
                 college_degree: Master of Science in CS
                 description: Computer Vision and Deep Learning
                 visibility: true
-
-author_education_details:
               - college_logo: khu.png
                 college_name: KyungHee Univ
                 college_url: https://khu.ac.kr

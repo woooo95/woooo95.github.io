@@ -36,26 +36,34 @@ typewrite-text: devlopr is a jekyll theme built for developers. You can edit thi
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
+            - company_name: null
+              company_logo: null
+              company_url: null
+              designation: null
+              description: null
+              visibility: false
+            - company_name: null
+              company_logo: null
+              company_url: null
+              designation: null
+              description: null
+              visibility: false
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: ku.png
+                college_name: Korea Univ
+                college_url: https://korea.ac.kr
+                college_degree: Master of Science in CS
+                description: Computer Vision and Deep Learning
+                visibility: true
+
+author_education_details:
+              - college_logo: khu.png
+                college_name: KyungHee Univ
+                college_url: https://khu.ac.kr
+                college_degree: Bachelor of Science in CS and Applied Mathematics
+                description: CS Engineer and Mathematics
                 visibility: true
 
 # Projects

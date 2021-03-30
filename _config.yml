@@ -13,10 +13,10 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
     - text: Contact
       url : /contact
+    - #text: Gallery
+      #url: /gallery
     - #text: Shop
       #url : /shop
     - #text: Styleguide
@@ -55,7 +55,7 @@ author_education_details:
                 college_name: Korea Univ
                 college_url: https://korea.ac.kr, https://singkru.github.io/
                 college_degree: Master of Science in CS
-                description: Computer Vision and Deep Learning, SINKU LAB
+                description: Computer Vision and Deep Learning, SINGKU LAB
                 visibility: false
               - college_logo: khu.png
                 college_name: KyungHee Univ
@@ -76,6 +76,19 @@ author_project_details:
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
                 visibility: false
+
+# Toy Projects
+author_toy_project_details:
+              - toy_project_thumbnail: null
+                toy_project_title: null
+                toy_project_description: null
+                toy_project_url: null
+                toy_visibility: false
+              - toy_project_thumbnail: null
+                toy_project_title: null
+                toy_project_description: null
+                toy_project_url: null
+                toy_visibility: false
 
 # social links
 twitter_username: null

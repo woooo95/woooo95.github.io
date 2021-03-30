@@ -125,6 +125,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
+show_author_toy_project_details: true
 
 # pagination of posts
 paginate: 4

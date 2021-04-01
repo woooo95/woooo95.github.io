@@ -79,11 +79,11 @@ author_project_details:
 
 # Toy Projects
 author_toy_project_details:
-              - toy_project_thumbnail: null
-                toy_project_title: null
-                toy_project_description: null
-                toy_project_url: null
-                toy_visibility: false
+              - toy_project_thumbnail: Bayesian Uncertainty.png
+                toy_project_title: Bayesian Uncertainty Estimation of US Segmentation with U-Net
+                toy_project_description: This is the Machine Learning(XAI501) term project 2nd semester of 2020. Our goal is to accurately segment Brachial plexus(BP) on US images, and to represent uncertainty via uncertainty maps if the predictions are uncertain. We add dropout layer to U-Net as a way to predict uncertainty which makes normal CNN to bayesian-like CNN. 
+                toy_project_url: https://github.com/woooo95/Bayesian-Uncertainty-Estimation-of-US-Segmentation-with-U-Net
+                toy_visibility: true
               - toy_project_thumbnail: null
                 toy_project_title: null
                 toy_project_description: null

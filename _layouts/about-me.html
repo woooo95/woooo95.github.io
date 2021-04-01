@@ -144,7 +144,7 @@ layout: default
     <div id="author_toy_projects" class="card">
       <h1 class="card-title">Toy Projects</h1>
       <br />
-      {% for project in site.show_author_toy_project_details %} {% if toy_project.visibility
+      {% for toy_project in site.show_author_toy_project_details %} {% if toy_project.visibility
       == true %}
       <div class="row" id="toy-project-card">
         <div class="col-md-6">

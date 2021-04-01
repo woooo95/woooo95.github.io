@@ -139,27 +139,28 @@ layout: default
       </div>
       <br />
       {% endif %} {% endfor %}
+
     </div>
     {% endif %} {% if site.show_author_toy_project_details == true %}
     <div id="author_toy_projects" class="card">
       <h1 class="card-title">Toy Projects</h1>
       <br />
-      {% for toy_project in site.show_author_toy_project_details %} {% if toy_project.visibility
+      {% for toy in site.show_author_toy_project_details %} {% if toy.visibility
       == true %}
       <div class="row" id="toy-project-card">
         <div class="col-md-6">
           <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{toy_project.toy_project_thumbnail}}"
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{toy.toy_project_thumbnail}}"
             class="toy-project-img"
           />
         </div>
         <div class="col-md-4 center">
-          <h4 class="experience-title">{{ toy_project.toy_project_title }}</h4>
-          <h6 class="experience-info">{{ toy_project.toy_project_info}}</h6>
-          <p class="experience-desc">{{ toy_project.toy_project_description }}</p>
+          <h4 class="experience-title">{{ toy.toy_project_title }}</h4>
+          <h6 class="experience-info">{{ toy.toy_project_info}}</h6>
+          <p class="experience-desc">{{ toy.toy_project_description }}</p>
           <p>
-            <a class="toy-project-link" href="{{toy_project.toy_project_url}}"
-              >{{ toy_project.toy_project_url}}</a
+            <a class="toy-project-link" href="{{toy.toy_project_url}}"
+              >{{ toy.toy_project_url}}</a
             >
           </p>
         </div>
@@ -167,6 +168,7 @@ layout: default
       <br />
       {% endif %} {% endfor %}
     </div>
+
     {% endif %} {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1 class="card-title">Work Experience</h1>

@@ -53,7 +53,7 @@ author_work_experiences:
 author_education_details:
               - college_logo: ku.png
                 college_name: Korea Univ
-                college_url: https://korea.ac.kr, https://singkru.github.io/
+                college_url: https://korea.ac.kr
                 college_degree: Master of Science in CS
                 date: "2020.03 ~ Now"
                 description: Computer Vision and Deep Learning, SINGKU LAB

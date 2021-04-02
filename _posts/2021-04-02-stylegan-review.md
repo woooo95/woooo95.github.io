@@ -13,15 +13,11 @@ permalink: /blog/stylegan-review/
 ---
 
 ## Introduction
-<figure>
-	<p style="text-align: center">
-		<img src="/assets/img/posts/paper_study/stylegan/pcgan.png" alt="pcgan.png"/>
-	</p>
-	<p style="text-align: center">
-		<figcaption>Generated image by PCGAN<br>
-			origin : https://blog.lunit.io/2019/02/25/a-style-based-generator-architecture-for-generative-adversarial-networks/<br>
-		</figcaption>
-	</p>
+<figure style="text-align: center">
+	<img src="/assets/img/posts/paper_study/stylegan/pcgan.png" alt="pcgan.png"/>
+	<figcaption>Generated image by PCGAN<br>
+		origin : https://blog.lunit.io/2019/02/25/a-style-based-generator-architecture-for-generative-adversarial-networks/<br>
+	</figcaption>
 </figure>
 위는 PCGAN으로 생성산 사람 얼굴 이미지이다.
 ```

@@ -145,12 +145,12 @@ layout: default
     {% endif %} 
 
     {% if site.show_author_toy_project_details == true %}
-    <div id="author_toy_projects" class="card">
+    <div class="card">
       <h1 class="card-title">Toy Projects</h1>
       <br />
       {% for toy in site.show_author_toy_project_details %} {% if toy.visibility
       == true %}
-      <div class="row" id="toy-project-card">
+      <div class="row">
         <div class="col-md-6">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{toy.toy_project_thumbnail}}"
@@ -162,7 +162,7 @@ layout: default
           <h6 class="experience-info">{{ toy.toy_project_info}}</h6>
           <p class="experience-desc">{{ toy.toy_project_description }}</p>
           <p>
-            <a class="toy-project-link" href="{{toy.toy_project_url}}"
+            <a class="project-link" href="{{toy.toy_project_url}}"
               >{{ toy.toy_project_url}}</a
             >
           </p>

@@ -28,8 +28,7 @@ urls:
 
 author_logo: profile.png
 author: Sunwoo Kim
-author_bio: Hi, my name is Sunwoo Kim. 
-I am interested in computer vision and deep learning
+author_bio:  Hi, my name is Sunwoo Kim. | I am interested in computer vision and deep learning 
 author_email: "kswoo3030@korea.ac.kr"
 author_location: South Korea
 author_website_url: null
@@ -84,9 +83,7 @@ author_project_details:
 author_toy_project_details: 
               - project_thumbnail: Bayesian Uncertainty.png
                 project_title: Bayesian Uncertainty Estimation of US Segmentation with U-Net
-                project_description: "This is the Machine Learning(XAI501) term project 2nd semester of 2020. 
-                Our goal is to accurately segment Brachial plexus(BP) on US images, and to represent uncertainty via uncertainty maps if the predictions are uncertain.
-                We add dropout layer to U-Net as a way to predict uncertainty which makes normal CNN to bayesian-like CNN."
+                project_description: "This is the Machine Learning(XAI501) term project 2nd semester of 2020. | Our goal is to accurately segment Brachial plexus(BP) on US images, and to represent uncertainty via uncertainty maps if the predictions are uncertain. | We add dropout layer to U-Net as a way to predict uncertainty which makes normal CNN to bayesian-like CNN."
                 project_url: https://github.com/woooo95/Bayesian-Uncertainty-Estimation-of-US-Segmentation-with-U-Net
                 visibility: true
               - project_thumbnail: hack4r.PNG

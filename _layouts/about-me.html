@@ -142,8 +142,9 @@ layout: default
       <br />
       {% endif %} {% endfor %}
     </div>
+    {% endif %} 
 
-    {% endif %} {% if site.show_author_toy_project_details == true %}
+    {% if site.show_author_toy_project_details == true %}
     <div id="author_toy_projects" class="card">
       <h1 class="card-title">Toy Projects</h1>
       <br />
@@ -170,8 +171,9 @@ layout: default
       <br />
       {% endif %} {% endfor %}
     </div>
+    {% endif %} 
 
-    {% endif %} {% if site.show_author_work_experiences == true %}
+    {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1 class="card-title">Work Experience</h1>
       <br />
@@ -193,7 +195,9 @@ layout: default
       </div>
       {% endif %} {% endfor %}
     </div>
-    {% endif %} {% if site.show_author_education_details == true %}
+    {% endif %} 
+
+    {% if site.show_author_education_details == true %}
     <div class="card">
       <h1 class="card-title">Education</h1>
       <br />
@@ -209,6 +213,7 @@ layout: default
         <div class="col-md-6">
           <h4 class="experience-title">{{detail.college_degree }}</h4>
           <h6 class="experience-info">{{detail.college_name}}</h6>
+          <p class="experience-date">{{detail.date}}</p>
           <p class="experience-desc">{{detail.description}}</p>
           <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
         </div>

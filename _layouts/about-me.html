@@ -113,7 +113,9 @@ layout: default
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio }}</p>
     </div>
-    {% endif %} {% if site.show_author_project_details == true %}
+    {% endif %} 
+
+    {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
       <br />
@@ -139,8 +141,8 @@ layout: default
       </div>
       <br />
       {% endif %} {% endfor %}
-
     </div>
+
     {% endif %} {% if site.show_author_toy_project_details == true %}
     <div id="author_toy_projects" class="card">
       <h1 class="card-title">Toy Projects</h1>

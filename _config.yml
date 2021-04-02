@@ -55,13 +55,15 @@ author_education_details:
                 college_name: Korea Univ
                 college_url: https://korea.ac.kr, https://singkru.github.io/
                 college_degree: Master of Science in CS
-                description: "2020 ~ Now"
+                date: "2020.03 ~ Now"
+                description: Computer Vision and Deep Learning, SINGKU LAB
                 visibility: true
               - college_logo: khu.png
                 college_name: KyungHee Univ
                 college_url: https://khu.ac.kr
                 college_degree: Bachelor of Science in CS and Applied Mathematics
-                description: "2014 ~ 2020"
+                date: "2014.03 ~ 2020.02"
+                description: CS Engineer and Mathematics
                 visibility: true
 
 # Projects
